@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body><script>
+    let Tempurate = function (c){
+        this.c = c;
+        this.getF = function (c){
+            return (this.c*1.8)+32;
+        }
+        this.getK = function (c){
+            return this.c +273,15
+        }
+
+    }
+    let tem = new Tempurate(25);
+    let resultF = tem.getF();
+    let resultK = tem.getK();
+    alert(resultF);
+    alert(resultK)
+</script>
+
+</body>
+</html>
